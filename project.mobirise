@@ -56,8 +56,8 @@
     "siteUrl": "http://users.skynet.be/fc296525/",
     "sitemapSwitcherAuto": true,
     "sitemapSwitcher": true,
-    "cleandom": "https://patrickdegand.github",
-    "cleanext": "io/deltapi/",
+    "cleandom": "https://patrickdegand",
+    "cleanext": "github.io/deltapi/",
     "": "on",
     "htmltag": "<html>",
     "cookiesAlert": false,
@@ -70,7 +70,8 @@
     "spellingSwitch": true,
     "site_lang": "undefined",
     "mbrsiteDomain": "swdvm9u1fm",
-    "mbrextSwitcher": false
+    "mbrextSwitcher": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
