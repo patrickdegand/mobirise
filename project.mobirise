@@ -1,0 +1,232 @@
+{
+  "settings": {
+    "name": "GitHub.mobirise",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "display8Font": "Barlow",
+        "display8Size": "1",
+        "display8bgColor": "#ffffff",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.1",
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      },
+      {
+        "css": "'Barlow', sans-serif",
+        "name": "Barlow",
+        "url": "https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "uniqCompNum": 13,
+    "versionPublish": "5.2.0",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/deltapi.min.svg",
+    "noImageResize": null,
+    "modified": "2019-10-04T09:53:35.491Z",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": true,
+    "siteUrl": "http://users.skynet.be/fc296525/",
+    "sitemapSwitcherAuto": true,
+    "sitemapSwitcher": true,
+    "cleandom": "https://patrickdegand.github",
+    "cleanext": "io/deltapi/",
+    "": "on",
+    "htmltag": "<html>",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "imageResize": false,
+    "jocmsSwitcher": false,
+    "dppsSwitcher": true,
+    "global_header_custom": "\n",
+    "global_footer_custom": "<script>!function(){if(document.getElementById('top-1')){var element = document.getElementById('top-1');element.parentNode.removeChild(element);}}();</script>",
+    "spellingSwitch": true,
+    "site_lang": "undefined",
+    "mbrsiteDomain": "swdvm9u1fm",
+    "mbrextSwitcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": false,
+        "title": "Links page",
+        "meta_descr": " Mobirise extensions mbrext",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".deltapi-menubar": {
+              "position": "fixed",
+              "top": "25%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".deltapi-menubar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".deltapi-menubar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".deltapi-menubar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".deltapi-menubar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".deltapi-menubar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".deltapi-menubar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".deltapi-menubar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".deltapi-menubar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".deltapi-menubar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "social-buttons3",
+          "_customHTML": "<section group=\"Menu\" global plugins=\"Socicon\" once=\"menu\">\n  \n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>DeltaPi Icons Menu</header>\n        <label>Left vertical menu</label>\n        <label>with Icon links</label>\n<input type=\"range\" inline title=\"Menu Icons (1-6)\" name=\"menuIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"1\">\n<input type=\"range\" inline title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"10\">\n<input type=\"range\" inline title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0.4\">\n<input type=\"range\" inline title=\"Icon Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"2.2\">\n<input type=\"range\" inline title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0.7\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3B5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#55ACEE\" condition=\"menuIcons>=2\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#0f7699\" condition=\"menuIcons>=3\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\" condition=\"menuIcons>=4\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#232323\" condition=\"menuIcons>=5\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\" condition=\"menuIcons>=6\">\n<!-- End block parameters -->\n</mbr-parameters>\n<div class=\"donotpublish\"><hr><hr><p>DeltaPi Side Icons Menu Extensions  <span class=\"mbri-info mbr-iconfont\" style=\"font-size: 36px;\"></span></p><hr><hr></div>\n\n  <div class=\"deltapi-menubar\">\n<a href=\"mailto:delta_pi@outlook.fr\" class=\"icon icon1\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn mbri-letter\"></span><h5>Contact</h5></a>\n<a href=\"popup:#mbr-popup-2\" data-toggle=\"modal\" data-target=\"#mbr-popup-2\" mbr-if=\"menuIcons > 1\" class=\"icon icon2\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn mbri-info\"></span><h5>Install</h5></a>\n<a href=\"popup:#mbr-popup-3\" mbr-if=\"menuIcons > 2\" class=\"icon icon3\" data-toggle=\"modal\" data-target=\"#mbr-popup-3\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn mbri-video\"></span><h5><i>Video</i></h5></a>\n<a data-toggle=\"modal\" data-target=\"#modalRelatedContent\" mbr-if=\"menuIcons > 3\" class=\"icon icon4\"><img src=\"@PROJECT_PATH@/assets/images/deltapi.min.svg\" style=\"width: 50px;\" alt title><h5>delpi</h5></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"menuIcons > 4\" class=\"icon icon5\"><svg width=\"50\" height=\"50\" viewBox=\"0 0 100 100\">\n   <rect x=\"0\" y=\"0\" rx=\"20\" ry=\"20\" width=\"100\" height=\"100\" style=\"fill:rgb(51,102,255);\"></rect>\n   <polygon points=\"50,10 10,85 90,85\" style=\"fill:white;\"></polygon>\n   <text x=\"22\" y=\"75\" style=\"fill:rgb(51,102,255);;font-family:Symbol;font-size: 75px;font-style: italic;font-weight: bold;\n\">p</text>\n</svg><h5>DelPi</h5></a>\n<a href=\"mailto:delta_pi@outlook.fr\" mbr-if=\"menuIcons > 5\" class=\"icon icon6\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn sli-paypal\"></span><h5>Home</h5></a>\n</div>\n\n</section>",
+          "_anchor": "social-buttons3-1m",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rrXLpXtaCe",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@keyframes pulse": {
+              "from": {
+                "transform": "scale(1)"
+              },
+              "50%": {
+                "transform": "scale(0.85)"
+              },
+              "to": {
+                "transform": "scale(1)"
+              }
+            },
+            ".fe-pulse": {
+              "animation-name": "pulse",
+              "animation-duration": "3s",
+              "animation-iteration-count": "infinite"
+            },
+            ".fe-pulse:hover, .fe-pulse:focus": {
+              "animation-name": "unset"
+            },
+            "H1": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323"
+            },
+            "H3": {
+              "color": "#073b4c"
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/deltapi-1.svg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Welcome <br>to DeltaPi !</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Welcome to DeltaPi softwares for engineering and web design</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Free utilities and extensions for Mobirise web builder and \n<br>chemical engineering freeware for catalyst characterization.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-5\"><a class=\"btn btn-md btn-secondary fe-pulse\" href=\"http://deltapi.pdegand.dx.am\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; mirored HomePage&nbsp;&nbsp;</a><br>\n                <a class=\"btn btn-md btn-primary fe-pulse\" href=\"https://patrickdegand.github.io/deltapi/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp; &nbsp;HOMEPAGE&nbsp; &nbsp; &nbsp; &nbsp;</a><br>\n                <a class=\"btn btn-md btn-success fe-pulse\" href=\"mailto:delta_pi@outlook.fr\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp;Send Email&nbsp; &nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "header1-b",
+          "_isUserblock": true,
+          "_cid": "shEBClAlhe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Révéler l'effet\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image de fond\" value=\"@PROJECT_PATH@/assets/images/deltapi.min.svg\">\n            <input type=\"color\" title=\"Couleur de fond\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposition\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Couleur de superposition\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacité\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2021 DeltaPi - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer6-a",
+          "_isUserblock": true,
+          "_cid": "shEzR9TOp1",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
